@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\newsectionwidth{1.4in} % How much horizontal space titles have
+
+\headheight = -10pt % Move up top of page 10pts
+
+\pagestyle{plain} % Page style with page numbers at center-bottom of every page
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\Large\bf Nathan LaPierre} % Your name at the top
+\moveleft.5\hoffset\centerline{925 Weyburn Place, Los Angeles, CA, 90024}
+\moveleft.5\hoffset\centerline{NathanL2012@gmail.com}
+\moveleft.5\hoffset\centerline{(571) 839-5008}
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+PhD in Computer Science, 2016 - 2021/2022 (Projected) \\
+University of California, Los Angeles
+
+B.S. {\sl magna cum laude} in Applied Computer Science, 3.86 GPA, 2015 \\
+George Mason University
+  
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PUBLICATIONS}
+Mohammad Arifur Rahman, \textbf{Nathan LaPierre}, Huzefa Rangwala, and Daniel Barbara, ``Clustering Metagenome Sequences Using Canopies", in {\sl 9th International Conference on Bioinformatics and Computational Biology}, Honolulu, Hawaii, 2017. Accepted.
+
+\textbf{Nathan LaPierre}, Mohammad Arifur Rahman, and Huzefa Rangwala, ``CAMIL: Clustering and Assembly with Multiple Instance Learning for Phenotype Prediction", in {\sl IEEE International Conference on Bioinformatics and Biomedicine}, Shenzhen, China, 2016.
+
+\textbf{Nathan LaPierre} and Huzefa Rangwala, ``Predicting Clinical Phenotype using OTU-based Metagenome Representation", in {\sl IEEE International Conference on Data Mining Workshop on Biological Data Mining and its Applications in Healthcare}, Atlantic City, New Jersey, 2015, pp. 156-163.
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PRESENTATIONS}
+``CAMIL: Clustering and Assembly with Multiple Instance Learning for Phenotype Prediction" in IEEE International Conference on Bioinformatics and Biomedicine, December 16, 2016
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Conducted an oral presentation of the paper that I co-authored (as first author)
+\item Paper was published in the conference proceedings
+\item Won a conference travel grant sponsored by NSF
+\end{itemize}
+
+``Predicting Clinical Phenotype using OTU-based Metagenome Representation" in IEEE International Conference on Data Mining workshop on Biological Data Mining and its Applications in Healthcare, November 14, 2015
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Conducted an oral presentation of the paper that I co-authored (as first author)
+\item Paper was published in the conference workshop proceedings
+\item Won a travel grant from the Undergraduate Student Travel Fund of the Office of Student Scholarship, Creative Activities, and Research at my university
+\end{itemize}
+
+``Developing a Computational Pipeline for Metagenomic State Classification with Feature Engineering" in Volgenau School of Engineering Undergraduate Research Celebration, April 2015
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Presented an earlier iteration of my research project in poster form
+\item Won Outstanding Undergraduate Research Project Award for this presentation
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{RESEARCH EXPERIENCE}
+
+{\sl Graduate Student} \\
+University of California, Los Angeles \hfill September 2016 - Present
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Working with Professor Wei Wang and Professor Eleazar Eskin
+\end{itemize}
+
+{\sl Graduate Research Assistant (GRA) / Student Researcher} \\
+George Mason University \hfill January - August 2016 (June-August as GRA)
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Worked with Professor Huzefa Rangwala 
+\item Developed CAMIL, a pipeline that uses whole metagenome shotgun sequence reads to predict whether or not a patient has a disease. Predicted with 90-96\% accuracy depending on dataset, over 10\% better than other leading methods.
+\item CAMIL paper accepted into IEEE BIBM 2016 (19\% acceptance rate).
+\item Second author of paper on using canopy clustering and locality sensitive hashing to reduce clustering time for biological datasets. Manuscript in preparation.
+\end{itemize}
+
+{\sl Predicting Clinical Phenotype using OTU-based Metagenome Representation} \\
+George Mason University  \hfill January 2015 - November 2015
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Worked with Professor Huzefa Rangwala
+\item Developed a computational pipeline that uses machine learning and data mining techniques to quickly and accurately predict whether a patient has a disease based on a data set of metagenomic samples from patients with the disease
+\item Paper accepted for publication, and poster presentation won Outstanding Undergraduate Project Award (see publications and presentations sections)
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{WORK EXPERIENCE}
+
+{\sl Security Engineering Intern} \hfill Summers 2013-2015 \\
+Sony Corporation of America 
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Wrote secure and scalable software and worked with Big Data in order to help analyze, detect, and prevent attacks on Sony\textsc{\char13}s networks
+\item Used Python, Javascript (Node, Express, Meteor), MongoDB, X/HTML, CSS 
+\item Developed a workplace communications system using Meteor.js; solo project
+\item Assisted in the development of a web application based on a searchable database system using Node.js, Express.js, and MongoDB
+\item Assisted in the development of a network forensics system; wrote backend python scripts and XML web layouts
+\end{itemize} 
+ 
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{TEACHING EXPERIENCE}
+
+{\sl Undergraduate Teaching Assistant} \hfill Fall 2014 - Spring 2015 \\
+CS 306 - Computer Law and Ethics, Computer Science Department, George Mason University
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Received Outstanding Undergraduate Teaching Assistant Award 
+\item Assisted students with legal research, writing, and oral communication
+\item Responsible for grading student assignments worth 25\% of their grade; one of the only Undergraduate Teaching Assistants entrusted with this responsibility
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+%	AWARDS and HONORS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{AWARDS, FELLOWSHIPS, SCHOLARSHIPS} 
+
+Selected Honors
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item {\sl Honorable Mention in NSF Graduate Research Fellowship}, 2015-16
+\item {\sl Outstanding Undergraduate Student Award}, given to overall best undergraduate student in Computer Science at George Mason University, May 2016
+\item {\sl Outstanding Academic Achievement Award}, given for outstanding performance in Computer Science, May 2016
+\item {\sl Outstanding Undergraduate Research Project} for presentation of my research project at Volgenau School of Engineering Undergraduate Research Symposium, April 2015
+\item {\sl Outstanding Undergraduate Teaching Assistant} for two semesters of excellence as a teaching assistant, April 2015
+\item {\sl Dean's List} every semester
+\end{itemize}
+
+Fellowships and Merit-Based Scholarships
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item {\sl NIH T32 Doctoral Training Fellowship}, 2016-17 academic year at UCLA
+\item {\sl Bersoff Endowed Scholarship}, Outstanding Academic Achievement, Awarded twice in 2015 and 2014
+\item {\sl SWIFT Scholarship}, Outstanding Academic Achievement, Awarded in 2015
+\end{itemize}
+
+Honors Societies and Organizations
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item {\sl Honors College} at George Mason University
+\item {\sl Alpha Lambda Delta Honor Society}
+\item {\sl Golden Key International Honour Society}
+\end{itemize}
+
+Technical Competitions
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item {\sl Top 5 at VTHacks}, a software development competition at Virginia Tech with over 45 teams, April 2014
+\item {\sl 2nd Place in the Technical Innovation Challenge}, a week-long competition at George Mason University to design a viable software product, jointly refereed by Computer Science and Business Departments, October 2014
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE SECTION
+%---------------------------------------------------------------------------------------- 
+
+\section{VOLUNTEER EXPERIENCE}
+
+Executive Curriculum Planner and Mentor, Community Programming Initiative \\ George Mason University Honors College and SRCT
+ \hfill 2014 - 2015
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Volunteer effort to teach basic programming to local 5th-8th grade students
+\item Planned and developed parts of the curriculum for the sessions, such as designing games and hints to help the students create them
+\item Mentored the elementary and middle school students during the sessions
+\end{itemize} 
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{COMPUTER \\ SKILLS} 
+
+{\sl Languages:} 
+Python, R, C, Java, Matlab/Octave, bash\\
+{\sl Other Technologies:} Git, Keras, Grid computing experience, Python/R data analysis packages, Machine learning experience (clustering, classification, etc), bioinformatics methods experience (alignment, clustering, assembly, etc)\\
+{\sl Operating Systems:} Linux, Windows 
+
+%----------------------------------------------------------------------------------------
+%	MENTORSHIP AND LEADERSHIP SECTION
+%----------------------------------------------------------------------------------------
+
+\section{MEMBERSHIPS AND LEADERSHIP}
+{\sl Student-Run Computing and Technology (SRCT)} \hfill 2013 - 2016 \begin{itemize} \itemsep -2pt % Reduce space between items
+\item Student organization at George Mason University that works on software projects and competitions to benefit the university and broader local community
+\item Secretary and Member of Executive Board, Fall 2015 Semester
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}
